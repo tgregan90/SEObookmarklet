@@ -5,6 +5,7 @@
         console.log("In a Google SERP");
         let s = document.createElement("script");
         s.src="https://cdn.jsdelivr.net/gh/tgregan90/SEObookmarklet@latest/SERPs.min.js";
+        s.type = "text/javascript";
         document.body.insertAdjacentElement("afterbegin",s);
     }
 
